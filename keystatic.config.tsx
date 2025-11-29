@@ -8,8 +8,12 @@ export default config({
             }
             : {
                 kind: 'github',
-                repo: (process.env.NEXT_PUBLIC_GITHUB_REPO as `${string}/${string}`) || 'bened45/blockchainbenincharity-website',
+                repo:
+                    (process.env.NEXT_PUBLIC_GITHUB_REPO as `${string}/${string}`) ||
+                    'bened45/blockchainbenincharity-website',
             },
+
+
     ui: {
         brand: {
             name: 'Blockchain Bénin Charity',
@@ -22,6 +26,7 @@ export default config({
             'Gestion des Dons': ['donations'],
         },
     },
+
     collections: {
         posts: collection({
             label: 'Articles',
