@@ -10,8 +10,22 @@ const montserrat = Montserrat({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://blockchainbenincharity.com"),
   title: "Blockchain Bénin Charity - La Blockchain au service de l'humain",
   description: "Organisation humanitaire béninoise utilisant la blockchain pour garantir la transparence totale de chaque don.",
+  openGraph: {
+    title: "Blockchain Bénin Charity",
+    description: "La Blockchain au service de l'humain. Transparence totale pour chaque don.",
+    url: "https://blockchainbenincharity.com",
+    siteName: "Blockchain Bénin Charity",
+    locale: "fr_FR",
+    type: "website",
+  },
+  twitter: {
+    card: "summary_large_image",
+    title: "Blockchain Bénin Charity",
+    description: "La Blockchain au service de l'humain.",
+  },
 };
 
 export default function RootLayout({
