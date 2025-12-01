@@ -169,21 +169,6 @@ export default function Hero({ quickStats, cardStats }: HeroProps) {
                         </div>
                     </div>
 
-                    {/* QR Code card */}
-                    <div className="bg-white/95 backdrop-blur-sm rounded-2xl p-6 shadow-2xl">
-                        <div className="flex items-start gap-4">
-                            <div className="w-24 h-24 bg-slate-100 rounded-xl flex items-center justify-center border-2 border-slate-200">
-                                {/* QR Code placeholder */}
-                                <svg className="w-20 h-20 text-slate-400" fill="currentColor" viewBox="0 0 24 24">
-                                    <path d="M3 3h8v8H3V3zm2 2v4h4V5H5zm8-2h8v8h-8V3zm2 2v4h4V5h-4zM3 13h8v8H3v-8zm2 2v4h4v-4H5zm11-2h3v3h-3v-3zm0 5h3v3h-3v-3zm5-5h3v3h-3v-3zm0 5h3v3h-3v-3z" />
-                                </svg>
-                            </div>
-                            <div className="flex-1">
-                                <h4 className="font-semibold text-slate-900 mb-1">Don rapide</h4>
-                                <p className="text-sm text-slate-600">Scannez pour contribuer</p>
-                            </div>
-                        </div>
-                    </div>
                 </div>
             </div>
 
