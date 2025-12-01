@@ -35,12 +35,12 @@ export default function Header() {
                 <div className="flex items-center justify-between h-16 lg:h-20">
                     {/* Logo */}
                     <Link href="/" className="flex items-center gap-2 lg:gap-3 hover:opacity-80 transition-opacity">
-                        <div className="w-10 h-10 lg:w-12 lg:h-12 relative flex-shrink-0">
+                        <div className="w-28 h-28 lg:w-32 lg:h-32 relative flex-shrink-0">
                             <Image
                                 src="/logo.png"
                                 alt="Blockchain Bénin Charity Logo"
-                                width={48}
-                                height={48}
+                                fill
+                                className="object-contain"
                                 priority
                             />
                         </div>
